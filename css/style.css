@@ -507,6 +507,7 @@ body {
 ================================================== */
 .blog-post-body {
   padding: .5vw 0;
+  font-size: 1.15vw;
 }
 
 .blog-post-body .container {
@@ -522,27 +523,43 @@ body {
   margin-bottom: .5vw;
 }
 
-.blog-post-body p {
+.blog-post-body p,
+.blog-post-body ul {
   font-size: 1.15vw;
   margin-bottom: .5vw;
+}
+
+.blog-post-body ul li {
+  margin-bottom: .5vw;
+}
+
+.blog-post-body ul li::before {
+  margin-left: .5vw;
+  content: '•';
 }
 
 @media (max-width: 1023.98px) {
   .blog-post-body {
     padding: 4vw 0;
+    font-size: 3.73vw;
   }
 
   .blog-post-body .container {
     width: 92%;
   }
 
-  .blog-post-body p {
+  .blog-post-body p,
+  .blog-post-body ul {
     font-size: 3.73vw;
     margin-bottom: 4vw;
   }
 
   .blog-post-img {
     margin-bottom: 4vw;
+  }
+
+  .blog-post-body ul li {
+    margin-bottom: 2vw;
   }
 
   .blog-post-img:first-child {
