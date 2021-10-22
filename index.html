@@ -5,10 +5,13 @@
   <!-- Meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pizza Shemesh">
-  <title>Pizza Shemesh</title>
+  <meta name="description" content="Minisite">
+  <title>Minisite</title>
 
   <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
 
   <!-- Style (Vendor) -->
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -21,12 +24,253 @@
   <link rel="icon" href="img/favicon.png">
 </head>
 
-<body>
+<body class="home-page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="container">
+      <!-- Hamburger -->
+      <div class="header-hamburger d-mobile">
+        <a href="#">
+          <img src="img/icons/hamburger.png" alt="icon">
+        </a>
+      </div>
+      <!-- Links -->
+      <div class="header-links d-desktop">
+        <ul class="f-d-19 f-m-60">
+          <!-- Item -->
+          <li>
+            <a href="#">מהו הרגיין קצף?</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <a href="#">זיהוי נשירת שיער תורשתית</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <a href="#">כדאי לדעת</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <a href="#">כיצד להשתמש?</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <a href="#">משך טיפול</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <!-- Accordion -->
+            <div class="accordion">
+              <div class="collapsible">
+                <div class="collapse-toggler">
+                  מידע 
+                  <div class="simbol">
+                    ^
+                  </div>
+                </div>
+                <div class="collapse">
+                  <div>
+                    <ul>
+                      <!-- Item -->
+                      <li>
+                        <a href="#">מי הם הסובלים
+                          בעיקר מהתקרחות?</a>
+                      </li>
+                      <!-- Item -->
+                      <li>
+                        <a href="#">מי הם הסובלים
+                          בעיקר מהתקרחות?</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <div class="container">
+      <!-- Img -->
+      <div class="img">
+        <img src="img/home/product.png" alt="product-img">
+      </div>
+      <!-- Text -->
+      <div class="text">
+        <div class="text-wrap">
+          <h1 class="f-d-70 f-m-100 text-orange">הרגיין קצף</h1>
+          <p class="badge f-d-35 f-m-50">ללא מרשם רופא</p>
+        </div>
+        <p class="f-d-25 f-m-36 bold">מיועד להצמחת שיער
+          הקרקפת אצל גברים
+          בריאים בגילאי 18-49</p>
+        <p class="f-d-19 f-m-28">במקרים של התקרחות מהסוג התורשתי בלבד</p>
+        <a href="#" class="btn btn-primary btn-lg d-desktop">לרכישה</a>
+      </div>
+    </div>
+    <!-- Bg -->
+    <div class="bg">
+      <picture>
+        <source media="(min-width:1024px)" srcset="img/home/banner-bg.png">
+        <img src="img/home/banner-bg-mobile.png" alt="bg-img">
+      </picture>
+    </div>
+  </div>
+
+  <!-- Home Hairgain -->
+  <div class="home-hairgain">
+    <div class="container">
+      <!-- Text -->
+      <div class="text">
+        <h2 class="f-d-45 f-m-70 text-orange">הרגיין קצף</h2>
+        <p class="f-d-20 f-m-32 text-blue bold">מיועד להצמחת שיער הקרקפת אצל גברים בריאים בגילאי 18-49 במקרים של התקרחות מהסוג התורשתי בלבד. </p>
+        <p class="f-d-18 f-m-28">תרופה ללא צורך במרשם רופא, מכילה את החומר הפעיל מינוקסידיל 5%, העוזר בזרימת הדם לזקיקי השיער שבקרקפת. בצורת מתן קצף. לשימוש חיצוני על הקרקפת.</p>
+      </div>
+      <!-- Img -->
+      <div class="img">
+        <img src="img/home/man.png" alt="man-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Home Info -->
+  <div class="home-info">
+    <!-- Section -->
+    <div class="section bg-orange">
+      <div class="container">
+        <!-- Text -->
+        <div class="text">
+          <h2 class="f-d-28 f-m-36 text-orange">ניתן לזהות נשירת שיער תורשתית עפ"י:</h2>
+          <ul class="f-d-22 f-m-28">
+            <li>  צורת ההתקרחות (ראה איור).</li>
+            <li>נשירה המתחילה בהדרגה ומתקדמת.</li>
+            <li>הימצאות היסטוריה משפחתית של נשירת שיער.</li>
+            <li>היעדר תסמינים אחרים הנלווים לנשירת השיער.</li>
+          </ul>
+        </div>
+        <!-- Img -->
+        <div class="img">
+          <img src="img/home/info-img-1.png" alt="info-img">
+        </div>
+      </div>
+    </div>
+    <!-- Section -->
+    <div class="section">
+      <div class="container">
+        <!-- Text -->
+        <div class="text">
+          <h2 class="f-d-28 f-m-36 text-orange">כדאי לדעת</h2>
+          <ul class="f-d-22 f-m-28">
+            <li> הרגיין קצף יעיל בעיקר בגברים שאובדן השיער שלהם או דלילות השיער הינה בחלק
+              העליון של הקרקפת. </li>
+            <li> משתמשים צעירים שהחלו להתקרח לפני זמן קצר או שאזור ההתקרחות שלהם קטן,
+              צפויים לראות את התוצאות הטובות ביותר.</li>
+            <li>משתמשים שההתקרחות אצלם החלה לפני שנים רבות או ששטח ההתקרחות נרחב, 
+              סביר להניח שלא יפיקו תועלת מהטיפול.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Section -->
+    <div class="section bg-orange">
+      <div class="container">
+        <!-- Text -->
+        <div class="text">
+          <h2 class="f-d-28 f-m-36 text-orange">כיצד תשתמש בהרגיין קצף?</h2>
+          <p class="f-d-22 f-m-28"> המינון המקובל בדרך כלל הוא:</p>
+          <p class="f-d-22 f-m-28 bold"> גרם (נפח של חצי מכסה) על קרקפת יבשה לחלוטין,
+            באזור ההתקרחות, פעמיים ביום.</p>
+          <p class="f-d-22 f-m-28">יש לרווח לפחות 12 שעות בין שימוש אחד לשני. אין לעבור על 2 גרם ביממה.  אין לעבור על המנה המומלצת. עליך לבדוק עם הרופא או הרוקח</p>
+        </div>
+      </div>
+    </div>
+    <!-- Section -->
+    <div class="section">
+      <div class="container">
+        <!-- Text -->
+        <div class="text">
+          <h2 class="f-d-28 f-m-36 text-orange">משך הטיפול</h2>
+          <p class="f-d-22 f-m-28">
+            <span class="bold">
+              שימוש ממושך בהרגיין קצף:
+            </span>
+             יתכן שתצטרך להשתמש בתכשיר פעמיים ביום במשך 8 שבועות לפחות, לפני שתבחין בצמיחת שיער חדש. זאת מאחר ותהליך צמיחת השיער הינו איטי וממושך. השיער הצומח יהיה בהתחלה רך ופלומתי, אך אמור בסופו של דבר להפוך דומה לשיער הרגיל. 
+            לאחר התחלת הצמיחה יש להמשיך בטיפול פעמיים ביום, כדי שגידול השיער יימשך. אם אין שיפור בצמיחת שערך לאחר 16 שבועות של שימוש, עליך להפסיק את הטיפול.
+            <br>
+            (יעילות התכשיר בניסויים קליניים לא נבדקה מעבר ל-16 שבועות).  
+            בכל שאלה התייעץ עם הרופא או הרוקח. 
+            <br>
+            <span class="bold">
+              לשימוש חיצוני בלבד.
+            </span>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog Posts -->
+  <div class="blog-posts bg-orange">
+    <div class="container">
+      <h2 class="f-d-28 f-m-36 text-orange">מידע נוסף</h2>
+      <ul>
+        <!-- Item -->
+        <li>
+          <div class="img">
+            <img src="img/home/blog-post-thumb-1.png" alt="thumbnail-img">
+          </div>
+          <div class="text">
+            <h3 class="f-d-18 f-m-32 text-orange">הקורבנות המיידיים: מי הם
+              הסובלים בעיקר מהתקרחות?</h3>
+            <p class="f-d-16 f-m-26">רוצים לדעת אם אתם שייכים
+                לקבוצת 'הקורבנות הפוטנציאליים'? הכתבה הזו תעזור לכם לפצח זאת - ואולי אפילו להתכונן.</p>
+            <a href="#" class="f-d-16 f-m-26 text-orange">קרא עוד >></a>
+          </div>
+        </li>
+        <!-- Item -->
+        <li>
+          <div class="img">
+            <img src="img/home/blog-post-thumb-2.png" alt="thumbnail-img">
+          </div>
+          <div class="text">
+            <h3 class="f-d-18 f-m-32 text-orange">הקורבנות המיידיים: מי הם
+              הסובלים בעיקר מהתקרחות?</h3>
+            <p class="f-d-16 f-m-26">רוצים לדעת אם אתם שייכים
+                לקבוצת 'הקורבנות הפוטנציאליים'? הכתבה הזו תעזור לכם לפצח זאת - ואולי אפילו להתכונן.</p>
+            <a href="#" class="f-d-16 f-m-26 text-orange">קרא עוד >></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="btns">
+        <a href="#" class="btn btn-primary">לרכישה</a>
+        <a href="#" class="btn btn-secondary">לרכישה לרכישה לרכישה לרכישה</a>
+      </div>
+      <a href="#" class="f-d-18 f-m-24">תנאים כלליים לשימוש באתר</a>
+    </div>
+  </div>
+
+  <!-- Sticky Btn -->
+  <div class="sticky-btn d-mobile">
+    <a href="#" class="btn btn-primary btn-lg">לרכישה</a>
+  </div>
 
   <!-- Script (Vendor) -->
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/gsap.min.js"></script>
 
   <!-- Script -->
+  <script src="js/elevate-framework.js"></script>
   <script src="js/app.js"></script>
 
 </body>
